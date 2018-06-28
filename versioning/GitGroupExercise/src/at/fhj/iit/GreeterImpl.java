@@ -5,7 +5,7 @@ public class GreeterImpl extends Greeter {
         this.nameToGreet = name;
     }
 
-    public sayHello() {
+    public void sayHello() {
         System.out.println("Hello, " + this.nameToGreet);
     }
 }
