@@ -1,3 +1,5 @@
+package at.fhj.iit;
+
 public class GreeterImpl extends Greeter {
     private String nameToGreet;
 
@@ -8,7 +10,7 @@ public class GreeterImpl extends Greeter {
     public void sayHello() {
         System.out.println("Hello, " + this.nameToGreet);
     }
-    
+
     public void sayGoodBye() {
         System.out.println("Good Bye, " + this.nameToGreet);
     }
